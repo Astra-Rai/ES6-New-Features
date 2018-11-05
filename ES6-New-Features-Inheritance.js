@@ -17,7 +17,21 @@ class Person{
   }
 }
 
-let bucky = newPerson('bucky', 87, 6650);
-let sally = newPerson('sally', 21, 89);
+class Programmer extends Person{
+	constructor(name, age, weight, language){
+		super(name, age, weight);
+		this.language = language;
 
-bucky.displayWeight();
+	}
+}
+let sally = newPerson('Sally', 21, 89);
+sally.displayName();
+sally.displayAge();
+sally.displayWeight();
+
+console.log('---------------');
+
+let bucky = new Programmer('Bucky Robers', 87, 987, 'JavaScript');
+
+bucky.displayName();
+bucky.displayAge();
