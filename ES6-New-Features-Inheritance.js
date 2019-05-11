@@ -1,4 +1,4 @@
-
+//Inheritance
 class Person{
 	constructor(name, age, weight){
 		this.name = name;
