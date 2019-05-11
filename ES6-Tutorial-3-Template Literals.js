@@ -1,4 +1,4 @@
-//template literals
+//Template literals
 
 let name = "Scooby Doo";
 //instead of ' + name + ', use ${name}, 
