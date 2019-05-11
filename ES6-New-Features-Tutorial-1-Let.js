@@ -1,6 +1,4 @@
-//Tutorial on let
-
-
+//Let
 let movie = 'Good Will Hunting';
 
 function theNoteBook(){
@@ -22,8 +20,10 @@ function buckyFunction(){
   let saying = 'Bacon is good';
  
   console.log('\nBefore if:', saying);
-//buckyFunction();
-//expected output: "Bacon is good"
+  
+  //buckyFunction();
+  //expected output: "Bacon is good"
+  
   if(isHorse){  
     let saying = 'I am a horse';
     console.log('Inside if:,' saying);
@@ -31,4 +31,4 @@ function buckyFunction(){
       console.log(saying);
       //no access so saying won't print
 }
-//insure why code isn't working
+//unsure why code isn't working
